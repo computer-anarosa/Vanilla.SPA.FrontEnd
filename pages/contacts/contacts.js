@@ -52,6 +52,17 @@ function sendContact(ev) {
 
 function saveData(data) {
     console.log(data);
+    // Executa o método POST na URL da API, passando os dados como parâmetro
+    $.post(
+        'https://frontend-vanilla-default-rtdb.firebaseio.com/contact/.json',
+        JSON.stringify(data)
+    )
+    .done((certo) => {
+        console.log('certo:', certo)
+    })
+    .fail((errou) => {
+        console.log('errou:', errou)
+    })
     return true;
 }
 
