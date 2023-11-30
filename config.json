@@ -3,7 +3,7 @@
     "siteLogo": "logotipo.svg",
     "siteName": "Cadastro de Trecos",
     "siteSlogan": "Acumuladores ao Extremo!",
-    "apiBaseURL": "http://localhost:8080/",
+    "apiBaseURL": "http://localhost:5000",
     "siteYear": 2019,
     "siteOwner": "Eu Mesmo!",
     "siteMenu": [
